@@ -1,0 +1,73 @@
+.weather-container { 
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;   
+ align-items: center;
+ margin-top: 50px;
+}
+.weather-content{
+  font-size: 5vh;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;   
+  align-items: start;
+  margin-top: 50px;
+  
+}
+.weather-content h1 {
+  text-align: center;
+}
+
+.about-btn {
+  height: 3em;
+width: 8em;
+border: none;
+border-radius: 10em;
+background: #016DD9;
+font-size: 17px;
+color: #ffffff;
+font-family: inherit;
+font-weight: 500;
+}
+.about-btn:hover {
+  animation: praveen 0.3s linear infinite both;
+ }
+
+ @keyframes praveen {
+  0% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ 
+  20% {
+   -webkit-transform: translate(-2px, 2px);
+   transform: translate(-2px, 2px);
+  }
+ 
+  40% {
+   -webkit-transform: translate(-2px, -2px);
+   transform: translate(-2px, -2px);
+  }
+ 
+  60% {
+   -webkit-transform: translate(2px, 2px);
+   transform: translate(2px, 2px);
+  }
+ 
+  80% {
+   -webkit-transform: translate(2px, -2px);
+   transform: translate(2px, -2px);
+  }
+ 
+  100% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ }
+ 
+ .btn-weather {
+  display: flex;
+  gap: 10px;
+ }

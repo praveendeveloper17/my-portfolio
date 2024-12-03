@@ -1,0 +1,75 @@
+.about-container {
+    margin-top: 90px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+.about-container img {
+    height: 400px;
+    width: auto;
+   border-radius: 15px;
+}
+.about-container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5vh;
+}
+.about-container .button {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in, transform 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background-color: #76a6ca;
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.button:before {
+  top: 0;
+}
+
+.button:after {
+  bottom: 0;
+}
+
+.button:hover:before,
+.button:hover:after {
+  opacity: 0.6;
+  transform: rotate(0deg);
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+  background-color: #76a6ca;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  transform: scale(0.98);
+}
+
+
+   
+   

@@ -1,0 +1,14 @@
+.home-container {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    
+}
+
+.home-container img {
+    border-radius: 10%;
+}

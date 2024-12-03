@@ -1,0 +1,13 @@
+.skil-container {
+  margin-top: 150px;
+  color: aliceblue;
+ 
+}
+
+.skil-container h1 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
