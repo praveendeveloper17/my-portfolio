@@ -22,7 +22,7 @@ function About() {
             development.
           </p>
           {/* button section */}
-            <a href="resume.pdf"><button className="about-btn">About CV</button></a>
+            <a href="PRAVEENKUMAR DEVELOPER.pdf"><button className="about-btn">About CV</button></a>
           {/* button section end */}
         </Col>
         <Col md={6} className="text-center text-md-right">
