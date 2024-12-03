@@ -1,6 +1,5 @@
 import React from "react";
 import "./Calculator.css";
-import Button from "react-bootstrap/Button";
 
 export default function Calculator() {
   return (
