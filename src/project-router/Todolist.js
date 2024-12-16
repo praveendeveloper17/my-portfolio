@@ -27,9 +27,10 @@ function Todolist() {
           <p>. Responsive Design: The app is designed to be user-friendly on various screen sizes</p><br></br>
         </p>
         <div className="container-btn-todo">
-        <a href="https://praveendeveloper17-todo-list.netlify.app/">
-          <button class="button">live-link</button>
-        </a>
+
+          <a href='https://praveen-todolist-app-react-js.netlify.app/'>
+          <button className='button'>live-link</button>
+          </a>
         <a href="https://github.com/praveendeveloper17/todo-list.git">
           <button class="button">sorece-link</button>
         </a>
