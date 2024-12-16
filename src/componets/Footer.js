@@ -130,7 +130,7 @@ function Footer() {
             <h2>Praveen</h2>
             <h1>Junior Full Stack Developer</h1>
             <ul class="wrapper">
-              <a href="www.linkedin.com/in/praveenkumar03333">
+              <a href="https://www.linkedin.com/in/praveenkumar1712/">
                 <li class="icon facebook">
                   <span class="tooltip">linkedin</span>
                   <h5>

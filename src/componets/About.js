@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import photo from "./images/my-pick.png";
+// import photo from "./images/my-pick.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 
@@ -9,7 +9,7 @@ function About() {
   return (
     <Container className="about-container" id="About">
       <Row className="align-items-center">
-        <Col md={6} className="text-center text-md-left">
+        <Col md={12} lg={12} ms={12} className="text-center  align-items-center">
           <p className="content-about">
             As an enthusiastic and evolving full-stack Developer, I am actively
             seeking opportunities to contribute my skills and creativity to a
@@ -24,9 +24,9 @@ function About() {
             <a href="praveenkumar-resume.pdf"><button className="about-btn">About -- CV</button></a>
           {/* button section end */}
         </Col>
-        <Col md={6} className="text-center text-md-right">
+        {/* <Col md={6} className="text-center text-md-right">
           <img src={photo} alt="Sample" className="img-fluid" />
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
