@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./Projectlayout.css";
 import Card from "react-bootstrap/Card";
 import { Carousel } from "react-bootstrap";
@@ -37,7 +37,7 @@ function Projectlayout() {
                   <h3>Calculator</h3>
                   <p>
                     Build using
-                    <Link to="calculator" className="Calculator text-white">
+                    <a href="https://praveenkumarv.neocities.org/calculator/calculator/">
                       <button className="Btn">
                         <div className="sign">
                           <svg viewBox="0 0 512 512">
@@ -46,7 +46,7 @@ function Projectlayout() {
                         </div>
                         <div className="text">VIEW</div>
                       </button>
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </Carousel.Item>
@@ -54,12 +54,12 @@ function Projectlayout() {
               <Carousel.Item>
                 <div className="card-item">
                   <h1 className="calculator-icon">
-                  <i class="fa-solid fa-cloud-sun"></i>
+                    <i class="fa-solid fa-cloud-sun"></i>
                   </h1>
                   <h3>Weather-App</h3>
                   <p>
                     Build using
-                    <Link to="Weather" className="Calculator text-white">
+                    <a href="https://live--v-praveen-weatherapp.netlify.app/">
                       <button className="Btn">
                         <div className="sign">
                           <svg viewBox="0 0 512 512">
@@ -68,22 +68,22 @@ function Projectlayout() {
                         </div>
                         <div className="text">VIEW</div>
                       </button>
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </Carousel.Item>
-           {/* Additional Carousel Items weather app end */}
+              {/* Additional Carousel Items weather app end */}
 
-           {/* carousel item todo list start */}
-           <Carousel.Item>
+              {/* carousel item todo list start */}
+              <Carousel.Item>
                 <div className="card-item">
                   <h1 className="calculator-icon">
-                  <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-list"></i>
                   </h1>
                   <h3>TODO-LIST</h3>
                   <p>
                     Build using
-                    <Link to="Todolist" className="Calculator text-white">
+                    <a href='https://praveen-todolist-app-react-js.netlify.app/'>
                       <button className="Btn">
                         <div className="sign">
                           <svg viewBox="0 0 512 512">
@@ -92,7 +92,7 @@ function Projectlayout() {
                         </div>
                         <div className="text">VIEW</div>
                       </button>
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </Carousel.Item>
@@ -103,12 +103,12 @@ function Projectlayout() {
               <Carousel.Item>
                 <div className="card-item">
                   <h1 className="calculator-icon">
-                  <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                   </h1>
                   <h3>E-commerce</h3>
                   <p>
                     Build using
-                    <Link to="Ecommerce" className="Calculator text-white">
+                    <a href="https://praveenkumarv.neocities.org/QuickDrive_project/QuickDrive">
                       <button className="Btn">
                         <div className="sign">
                           <svg viewBox="0 0 512 512">
@@ -117,7 +117,7 @@ function Projectlayout() {
                         </div>
                         <div className="text">VIEW</div>
                       </button>
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </Carousel.Item>
@@ -129,7 +129,7 @@ function Projectlayout() {
               <Carousel.Item>
                 <div className="card-item">
                   <h1 className="calculator-icon">
-                  <i class="fa-solid fa-film"></i>
+                    <i class="fa-solid fa-film"></i>
                   </h1>
                   <h3>Movie finder App</h3>
                   <p>
@@ -143,9 +143,7 @@ function Projectlayout() {
                         </div>
                         <div className="text">VIEW</div>
                       </button>
-                      </a>
-
-                    
+                    </a>
                   </p>
                 </div>
               </Carousel.Item>
