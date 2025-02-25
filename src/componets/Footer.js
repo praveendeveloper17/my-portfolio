@@ -140,7 +140,7 @@ function Footer() {
               </a>
               <a href="https://github.com/praveendeveloper17">
                 <li class="icon twitter">
-                  <span class="tooltip">Twitter</span>
+                  <span class="tooltip">github</span>
                   <h5>
                     <i class="fa-brands fa-github"></i>
                   </h5>
